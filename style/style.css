@@ -46,3 +46,40 @@ header ul li a:hover{
     box-shadow: #1b3e12aa 2px 2px 8px;
     color: #ffffff;
 }
+.natura{
+    width: 600px;
+    height: 370px;
+    margin: 60px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.on-off{
+    width: 120px;
+    height: 60px;
+    padding: 12px;
+    background-color:#fffb00db;
+    border: #e1b216c7 solid ;
+    font-size: 36px;
+    font-weight: 26px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.on-off:hover{
+    background-color:#ffffff;
+}
+.bulb{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+}
+.bulb img{
+    width: 100%;
+}
